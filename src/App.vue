@@ -12,7 +12,8 @@
 </template>
 
 <script>
-  import '@fortawesome/fontawesome-free/css/all.css'
+import 'font-awesome/css/font-awesome.min.css'
+
   import header from './header.vue';
   import server from './server.vue';
   import serverDetails from './serverDetails.vue';
