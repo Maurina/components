@@ -10,21 +10,15 @@
       >
        
         <v-card-actions class="grey darken-3 justify-center">
-          {{ new Date().getFullYear() }} — <strong>Vuetify</strong>
+          {{ new Date().getFullYear() }} — <strong>Server</strong>
         </v-card-actions>
       </v-card>
     </v-footer>
 </template>
 <script>
- data: () => ({
-    icons: [
-      'fab fa-facebook',
-      'fab fa-twitter',
-      'fab fa-google-plus',
-      'fab fa-linkedin',
-      'fab fa-instagram',
-    ],
-  })
+export default{
+
+}
 </script>
 
 <style scoped>

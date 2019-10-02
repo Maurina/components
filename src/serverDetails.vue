@@ -1,6 +1,10 @@
 <template>
     <div>
-        <p>Server Details are currently not updated</p>
+        <v-container>
+            <v-col>
+                <p>Server Details are currently not updated</p>
+            </v-col>
+        </v-container> 
     </div>
 </template>
 

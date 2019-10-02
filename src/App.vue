@@ -12,7 +12,7 @@
 </template>
 
 <script>
-import 'font-awesome/css/font-awesome.min.css'
+
 
   import header from './header.vue';
   import server from './server.vue';
