@@ -9,8 +9,8 @@
         tile
       >
        
-        <v-card-actions class="grey darken-3 justify-center">
-          {{ new Date().getFullYear() }} — <strong>Server</strong>
+        <v-card-actions class="teal justify-center">
+          {{ new Date().getFullYear() }} 
         </v-card-actions>
       </v-card>
     </v-footer>

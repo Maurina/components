@@ -1,8 +1,6 @@
 <template>
     <div> 
-      <v-container>
-        <v-col cols="12" sm="4">  
-            <v-card class="mx-auto list-group-item" :key ="index" v-for="index in 5" max-width="344">
+            <v-card class="mx-auto list-group-item cards" :key ="index" v-for="index in 5" max-width="344">
               <v-card-text>
                 <div>
                   <ul class="list-group">
@@ -15,9 +13,9 @@
                   Learn More
                 </v-btn>
               </v-card-actions>
+          
             </v-card>
-        </v-col>  
-      <v-container>
+
     </div>
 </template>
 
@@ -28,5 +26,7 @@ export default {
 </script>
 
 <style scoped>
-
+.cards{
+   margin: 5%;
+ }
 </style>

@@ -3,8 +3,16 @@
   <div>
     <app-header></app-header>
     <hr>
+    <v-container>
+      <v-row>
+        <v-col>
     <app-server></app-server>
-    <app-server-details></app-server-details>
+        </v-col>
+        <v-col>
+    <app-serverDetails></app-serverDetails>
+        </v-col>
+    </v-row>
+    </v-container>
     <hr>
     <app-footer></app-footer>
   </div>
